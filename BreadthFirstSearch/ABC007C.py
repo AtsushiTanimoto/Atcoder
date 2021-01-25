@@ -11,7 +11,7 @@ while Q:
     x,y = Q.popleft()
     for dx,dy in D:
         if S[x+dx][y+dy]==".":
-            S[x+dx][y+dy] = S[x][y]+1
+            S[x+dx][y+dy] = 1+S[x][y]
             Q.append([x+dx,y+dy])
 
 print(S[GX-1][GY-1])
