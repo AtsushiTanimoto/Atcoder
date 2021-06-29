@@ -1,11 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
-    int S;
-    int T;
-    cin>>S;
-    cin>>T;
-    cout<<T-S+1<<endl;
+    int S,T;
+    std::cin>>S>>T;
+    std::cout<<T-S+1<<std::endl;
 }
