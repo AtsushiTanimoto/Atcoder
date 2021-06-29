@@ -1,20 +1,16 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
-    string A;
-    string B;
-    cin>>A;
-    cin>>B;
+    std::string A,B;
+    std::cin>>A>>B;
 
     if(A.size()<B.size())
     {
-        cout<<B<<endl;
+        std::cout<<B<<std::endl;
     }
-
     else
     {
-        cout<<A<<endl;
+        std::cout<<A<<std::endl;
     }
 }
