@@ -1,11 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
-    int x;
-    int y;
-    cin>>x;
-    cin>>y;
-    cout<<max(x,y)<<endl;
+    int X,Y;
+    std::cin>>X>>Y;
+    std::cout<<std::max(X,Y)<<std::endl;
 }
