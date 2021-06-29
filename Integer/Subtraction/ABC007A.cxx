@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
     int n;
-    cin>>n;
-    cout<<n-1<<endl;
+    std::cin>>n;
+    std::cout<<n-1<<std::endl;
 }
