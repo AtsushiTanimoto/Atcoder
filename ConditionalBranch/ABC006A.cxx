@@ -1,18 +1,16 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
     int N;
-    cin>>N;
+    std::cin>>N;
 
     if(N%3==0)
     {
-        cout<<"YES"<<endl;
+        std::cout<<"YES"<<std::endl;
     }
-    
     else
     {
-        cout<<"NO"<<endl;
+        std::cout<<"NO"<<std::endl;
     }
 }
