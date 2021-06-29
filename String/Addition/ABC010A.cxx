@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
-    string S;
-    cin>>S;
-    cout<<S+"pp"<<endl;
+    std::string S;
+    std::cin>>S;
+    std::cout<<S+"pp"<<std::endl;
 }
