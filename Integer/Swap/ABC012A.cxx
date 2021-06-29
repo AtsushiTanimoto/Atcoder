@@ -1,11 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
-    int A;
-    int B;
-    cin>>A;
-    cin>>B;
-    cout<<B<<" "<<A<<endl;
+    int A,B;
+    std::cin>>A>>B;
+    std::cout<<B<<" "<<A<<std::endl;
 }
