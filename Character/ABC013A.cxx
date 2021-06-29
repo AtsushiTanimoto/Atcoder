@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
     char X;
-    cin>>X;
-    cout<<1+X-'A'<<endl;
+    std::cin>>X;
+    std::cout<<X-64<<std::endl;
 }
