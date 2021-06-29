@@ -1,11 +1,8 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 int main()
 {
-    int x;
-    int y;
-    cin>>x;
-    cin>>y;
-    cout<<y/x<<endl;
+    int x,y;
+    std::cin>>x>>y;
+    std::cout<<y/x<<std::endl;
 }
