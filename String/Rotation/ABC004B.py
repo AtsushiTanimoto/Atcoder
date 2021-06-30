@@ -1,8 +1,0 @@
-C0 = input().split()
-C1 = input().split()
-C2 = input().split()
-C3 = input().split()
-print(*C3[::-1])
-print(*C2[::-1])
-print(*C1[::-1])
-print(*C0[::-1])
