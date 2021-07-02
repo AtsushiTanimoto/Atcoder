@@ -2,10 +2,10 @@
 
 int main()
 {
-    std::string S;
-    std::cin>>S;
+    std::string A,B,C;
+    std::cin>>A>>B>>C;
 
-    if(S.back()=='T')
+    if(A.back()==B[0] && B.back()==C[0])
     {
         std::cout<<"YES"<<std::endl;
     }
