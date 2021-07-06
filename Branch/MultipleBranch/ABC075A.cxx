@@ -11,10 +11,7 @@ int main()
     }
     else if(B==C)
     {
-        std::cout<<A<<std::endl;
+        std::
     }
-    else
-    {
-        std::cout<<B<<std::endl;
-    }
+    std::cout<<(A^B^C)<<std::endl;
 }
