@@ -2,8 +2,7 @@
 
 int main()
 {
-    int a[3];
-    std::cin>>a[0]>>a[1]>>a[2];
-    std::sort(a,a+3);
-    std::cout<<a[1]<<std::endl;
+    int A,B,C;
+    std::cin>>A>>B>>C;
+    std::cout<<A+B+C-std::min({A,B,C})-std::max({A,B,C})<<std::endl;
 }
