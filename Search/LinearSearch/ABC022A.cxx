@@ -1,14 +1,15 @@
 #include<bits/stdc++.h>
 
+
 int main()
 {
+    int ans = 0;
     int N,S,T,W,A;
-    int C = 0;
     std::cin>>N>>S>>T>>W;
 
     if(S<=W&&W<=T)
     {
-        C+=1;
+        ans+=1;
     }
 
     for(int n=1;n<N;n++)
@@ -18,9 +19,9 @@ int main()
 
         if(S<=W&&W<=T)
         {
-            C+=1;
+            ans+=1;
         }
     }
 
-    std::cout<<C<<std::endl;
+    std::cout<<ans<<std::endl;
 }
