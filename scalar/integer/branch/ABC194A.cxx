@@ -1,15 +1,16 @@
 #include<bits/stdc++.h>
 
+
 int main()
 {
     int A,B;
     std::cin>>A>>B;
 
-    if(15<=A+B&&8<=B)
+    if(15<=A+B and 8<=B)
     {
         std::cout<<1<<std::endl;
     }
-    else if(10<=A+B&&3<=B)
+    else if(10<=A+B and 3<=B)
     {
         std::cout<<2<<std::endl;
     }

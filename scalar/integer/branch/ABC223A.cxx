@@ -6,7 +6,7 @@ int main()
     int X;
     std::cin>>X;
 
-    if(X!=0&&X%100==0)
+    if(X!=0 and X%100==0)
     {
         std::cout<<"Yes"<<std::endl;
     }

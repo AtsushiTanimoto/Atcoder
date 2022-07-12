@@ -6,15 +6,15 @@ int main()
     int A,B,C;
     std::cin>>A>>B>>C;
 
-    if(A+B==C&&A-B==C)
+    if(A+B==C and A-B==C)
     {
         std::cout<<"?"<<std::endl;
     }
-    else if(A+B==C&&A-B!=C)
+    else if(A+B==C and A-B!=C)
     {
         std::cout<<"+"<<std::endl;
     }
-    else if(A+B!=C&&A-B==C)
+    else if(A+B!=C and A-B==C)
     {
         std::cout<<"-"<<std::endl;
     }

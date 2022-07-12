@@ -5,7 +5,7 @@ int main()
     int A,B,C;
     std::cin>>A>>B>>C;
 
-    if(B<A||(B==A&&C==1))
+    if(B<A or (B==A and C==1))
     {
         std::cout<<"Takahashi"<<std::endl;
     }

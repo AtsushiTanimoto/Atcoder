@@ -5,7 +5,7 @@ int main()
     int A,B,C;
     std::cin>>A>>B>>C;
 
-    if(A<=C&&C<=B)
+    if(A<=C and C<=B)
     {
         std::cout<<"Yes"<<std::endl;
     }
