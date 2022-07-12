@@ -7,11 +7,11 @@ int main()
     std::cin>>S;
     std::sort(S.begin(),S.end());
 
-    if(S[0]==S[1]&&S[1]==S[2])
+    if(S[0]==S[1] and S[1]==S[2])
     {
         std::cout<<1<<std::endl;
     }
-    else if(S[0]==S[1]||S[1]==S[2])
+    else if(S[0]==S[1] or S[1]==S[2])
     {
         std::cout<<3<<std::endl;
     }

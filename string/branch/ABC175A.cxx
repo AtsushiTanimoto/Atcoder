@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 
+
 int main()
 {
     std::string S;
@@ -9,11 +10,11 @@ int main()
     {
         std::cout<<0<<std::endl;
     }
-    else if(S=="RSS"||S=="SRS"||S=="SSR"||S=="RSR")
+    else if(S=="RSS" or S=="SRS" or S=="SSR" or S=="RSR")
     {
         std::cout<<1<<std::endl;
     }
-    else if(S=="RRS"||S=="SRR")
+    else if(S=="RRS" or S=="SRR")
     {
         std::cout<<2<<std::endl;
     }
