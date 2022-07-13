@@ -5,5 +5,5 @@ int main()
 {
     int N;
     std::cin>>N;
-    std::printf("%04d\n",N);
+    std::cout<<std::setfill('0')<<std::setw(4)<<N<<std::endl;
 }
